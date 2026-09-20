@@ -1,18 +1,11 @@
-# eeg-seizure-detection
+# EEG Seizure Detection
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/BurhanxGodhra/eeg-seizure-detection/blob/main/seizure_detection.ipynb)
 
-Preictal seizure classification pipeline using EEG signal processing.
+An experimental EEG classification pipeline for distinguishing seizure and non-seizure segments.
 
-## Overview
-This repository contains a standalone Jupyter/Colab notebook setup for rapid execution and reproducibility.
+The project uses EEG preprocessing, epoching, Common Spatial Pattern (CSP) features, scaling, and Logistic Regression.
 
-## Quickstart
-1. Click the **Open in Colab** badge above to launch directly in Google Colab.
-2. To run locally:
-   ```bash
-   git clone https://github.com/BurhanxGodhra/eeg-seizure-detection.git
-   cd eeg-seizure-detection
-   pip install -r requirements.txt
-   jupyter notebook seizure_detection.ipynb
-   ```
+**Dataset:** CHB-MIT Scalp EEG
+
+**Tools:** Python · MNE · Scikit-learn
